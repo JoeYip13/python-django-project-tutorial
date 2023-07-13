@@ -29,8 +29,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-joeyip13-python-django-p-8g5ngtshz6.us2.codeanyapp.com']
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST')]
 
+CSRF_TRUSTED_ORIGINS = [os.environ.get('CSRF_TRUSTED_ORIGINS')]
 
 # Application definition
 
