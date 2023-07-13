@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['8000-joeyip13-python-django-p-8g5ngtshz6.us2.codeanyapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
